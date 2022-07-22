@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.3.0 
+Voir <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+Généré le : 2022.07.08 à 06:02:20 PM WET 
+
+  -->
+  <bindings xmlns:tns="http://wspsaisi_j.webservices.natsys.fr/" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="ma.co.cdm.infopartenaire.consumesoap.stub"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="~tns:creationPreSaisieCheque">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.CreationPreSaisieCheque"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:creationPreSaisieChequeResponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.CreationPreSaisieChequeResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:creationPreSaisieEffet">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.CreationPreSaisieEffet"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:creationPreSaisieEffetResponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.CreationPreSaisieEffetResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:creationPreSaisieTransfert">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.CreationPreSaisieTransfert"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:creationPreSaisieTransfertResponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.CreationPreSaisieTransfertResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:creationPreSaisieTransfertV2">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.CreationPreSaisieTransfertV2"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:creationPreSaisieTransfertV2Response">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.CreationPreSaisieTransfertV2Response"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:creerPSContratPeriodiqueChCpt">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.CreerPSContratPeriodiqueChCpt"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:creerPSContratPeriodiqueChCptResponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.CreerPSContratPeriodiqueChCptResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:creerPreSaisieChangeComptant">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.CreerPreSaisieChangeComptant"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:creerPreSaisieChangeComptantResponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.CreerPreSaisieChangeComptantResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:creerPreSaisieChangeComptantV21SP2">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.CreerPreSaisieChangeComptantV21SP2"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:creerPreSaisieChangeComptantV21SP2Response">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.CreerPreSaisieChangeComptantV21SP2Response"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:demandeTarification">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.DemandeTarification"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:demandeTarificationResponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.DemandeTarificationResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:modifierContratPeriodiqueChCpt">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.ModifierContratPeriodiqueChCpt"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:modifierContratPeriodiqueChCptResponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.ModifierContratPeriodiqueChCptResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:suppressionPreSaisieCheque">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.SuppressionPreSaisieCheque"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:suppressionPreSaisieChequeResponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.SuppressionPreSaisieChequeResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:suppressionPreSaisieEffet">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.SuppressionPreSaisieEffet"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:suppressionPreSaisieEffetResponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.SuppressionPreSaisieEffetResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:suppressionPreSaisieTransfert">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.SuppressionPreSaisieTransfert"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:suppressionPreSaisieTransfertResponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.SuppressionPreSaisieTransfertResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:suppressionPreSaisieTransfertV2">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.SuppressionPreSaisieTransfertV2"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:suppressionPreSaisieTransfertV2Response">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.SuppressionPreSaisieTransfertV2Response"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:supprimerPSContratPeriodiqueChCpt">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.SupprimerPSContratPeriodiqueChCpt"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:supprimerPSContratPeriodiqueChCptResponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.SupprimerPSContratPeriodiqueChCptResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:supprimerPreSaisieChangeComptant">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.SupprimerPreSaisieChangeComptant"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:supprimerPreSaisieChangeComptantResponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.SupprimerPreSaisieChangeComptantResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:supprimerPreSaisieChangeComptantV21SP2">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.SupprimerPreSaisieChangeComptantV21SP2"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:supprimerPreSaisieChangeComptantV21SP2Response">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.SupprimerPreSaisieChangeComptantV21SP2Response"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visualisationListePreSaisiesCheque">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisualisationListePreSaisiesCheque"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visualisationListePreSaisiesChequeResponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisualisationListePreSaisiesChequeResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visualisationListePreSaisiesEffet">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisualisationListePreSaisiesEffet"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visualisationListePreSaisiesEffetResponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisualisationListePreSaisiesEffetResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visualisationListePreSaisiesTransfert">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisualisationListePreSaisiesTransfert"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visualisationListePreSaisiesTransfertResponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisualisationListePreSaisiesTransfertResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visualisationListePreSaisiesTransfertV2">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisualisationListePreSaisiesTransfertV2"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visualisationListePreSaisiesTransfertV2Response">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisualisationListePreSaisiesTransfertV2Response"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visualisationPreSaisieCheque">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisualisationPreSaisieCheque"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visualisationPreSaisieChequeResponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisualisationPreSaisieChequeResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visualisationPreSaisieEffet">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisualisationPreSaisieEffet"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visualisationPreSaisieEffetResponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisualisationPreSaisieEffetResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visualisationPreSaisieTransfert">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisualisationPreSaisieTransfert"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visualisationPreSaisieTransfertResponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisualisationPreSaisieTransfertResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visualisationPreSaisieTransfertV2">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisualisationPreSaisieTransfertV2"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visualisationPreSaisieTransfertV2Response">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisualisationPreSaisieTransfertV2Response"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visualiserContratPeriodiqueChCpt">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisualiserContratPeriodiqueChCpt"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visualiserContratPeriodiqueChCptResponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisualiserContratPeriodiqueChCptResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visualiserListeContratsPeriodiquesChCpt">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisualiserListeContratsPeriodiquesChCpt"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visualiserListeContratsPeriodiquesChCptResponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisualiserListeContratsPeriodiquesChCptResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visualiserListePreSaisiesChangeComptant">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisualiserListePreSaisiesChangeComptant"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visualiserListePreSaisiesChangeComptantResponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisualiserListePreSaisiesChangeComptantResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visualiserListePreSaisiesChangeComptantV21SP2">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisualiserListePreSaisiesChangeComptantV21SP2"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visualiserListePreSaisiesChangeComptantV21SP2Response">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisualiserListePreSaisiesChangeComptantV21SP2Response"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visualiserPreSaisieChangeComptant">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisualiserPreSaisieChangeComptant"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visualiserPreSaisieChangeComptantResponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisualiserPreSaisieChangeComptantResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visualiserPreSaisieChangeComptantV21SP2">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisualiserPreSaisieChangeComptantV21SP2"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visualiserPreSaisieChangeComptantV21SP2Response">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisualiserPreSaisieChangeComptantV21SP2Response"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:wspsaisiJFaultBean">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.WspsaisiJFaultBean"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:typePreSaisieTransfert">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.TypePreSaisieTransfert"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:cptePart">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.CptePart"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:typeTarification">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.TypeTarification"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:typeReponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.TypeReponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:typeVisualisationListeTranReponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.TypeVisualisationListeTranReponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:typePreSaisieTransfertV2">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.TypePreSaisieTransfertV2"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:typePreSaisieCheque">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.TypePreSaisieCheque"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:typeVisualisationChequeReponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.TypeVisualisationChequeReponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PreSaisieChangeComptant">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.PreSaisieChangeComptant"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:creerPreSaisieChangeComptantOut">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.CreerPreSaisieChangeComptantOut"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:typeCreationChequeReponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.TypeCreationChequeReponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:typeVisualisationListeChequeReponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.TypeVisualisationListeChequeReponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:preSaisieContratPeriodiqueCh">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.PreSaisieContratPeriodiqueCh"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:creerPSContratPeriodiqueChOut">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.CreerPSContratPeriodiqueChOut"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:typeCreationTranReponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.TypeCreationTranReponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:messWs">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.MessWs"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:typePreSaisieEffet">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.TypePreSaisieEffet"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:typeVisualisationListeEffetReponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.TypeVisualisationListeEffetReponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visuPreSaisieChangeComptant">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisuPreSaisieChangeComptant"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:typeCreationEffetReponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.TypeCreationEffetReponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:typeVisualisationListeTranReponseV2">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.TypeVisualisationListeTranReponseV2"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visuListeContratsPerChOut">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisuListeContratsPerChOut"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PreSaisieChangeComptantV21SP2">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.PreSaisieChangeComptantV21SP2"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visuPSChangeComptantV21SP2Out">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisuPSChangeComptantV21SP2Out"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:typeVisualisationEffetReponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.TypeVisualisationEffetReponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:typeVisualisationTranReponseV2">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.TypeVisualisationTranReponseV2"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visuContratPeriodiqueChOut">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisuContratPeriodiqueChOut"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visuListePSChangeComptant">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisuListePSChangeComptant"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:typeVisualisationTranReponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.TypeVisualisationTranReponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:typeDemandeTarification">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.TypeDemandeTarification"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:typeDemandeTarificationReponse">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.TypeDemandeTarificationReponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:visuLstChangeCptV21SP2Out">
+      <class ref="ma.co.cdm.infopartenaire.consumesoap.stub.VisuLstChangeCptV21SP2Out"/>
+    </bindings>
+  </bindings>
+</bindings>
