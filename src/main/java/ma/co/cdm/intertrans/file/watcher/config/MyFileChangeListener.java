@@ -53,6 +53,7 @@ public class MyFileChangeListener implements FileChangeListener {
         
         
           try {
+              logger.info("*********************************************run batch launcher******************************************************");
 				batchLauncher.run();
 			} catch (JobParametersInvalidException | JobExecutionAlreadyRunningException | JobRestartException
 					| JobInstanceAlreadyCompleteException e) {
