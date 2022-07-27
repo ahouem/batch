@@ -25,6 +25,8 @@ public class InfoPartenaireSoapClient {
 	private String endPointinfoPartenaire;
 	
 	
+	
+	
 	public InfosPartenaireAPartirCompteResponse getInfoPartenaire(InfosPartenaireAPartirCompte infoPartenaireAPartirCompte) {
 		templatePartenaire =new WebServiceTemplate(marshallerPartenaire);
 		final Object objectResult=	templatePartenaire.marshalSendAndReceive(endPointinfoPartenaire, infoPartenaireAPartirCompte);
