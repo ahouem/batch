@@ -115,6 +115,7 @@
 
 			</plugin>  -->
 		</plugins>
+		<finalName>batch-intertrans</finalName>
 	</build>
 
 </project>
