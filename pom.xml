@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>ma.co.cdm</groupId>
-	<artifactId>intertrans</artifactId>
+	<artifactId>batch</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>intertrans-batch</name>
 	<description>international transactions batch processing</description>
