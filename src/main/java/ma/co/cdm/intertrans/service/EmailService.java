@@ -2,7 +2,6 @@ package ma.co.cdm.intertrans.service;
 
 import java.io.File;
 
-import javax.mail.Message;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
